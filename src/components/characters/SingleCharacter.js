@@ -7,6 +7,7 @@ import Spinner from '../ui/Spinner';
 
 const Card = (prons) => {
     return (
+
         <div className="scard">
             <div className="stop">
                 <h2 className="sname">{prons.name}</h2>
@@ -40,7 +41,7 @@ const SingleCharacter = () => {
         }
 
         fetchItems();
-    }, [])
+    }, [id])
 
 
     console.log("item", item);

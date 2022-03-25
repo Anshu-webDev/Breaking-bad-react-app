@@ -3,7 +3,6 @@ import axios from 'axios'
 import Header from '../ui/Header'
 import CharacterGrid from './CharacterGrid'
 import Search from '../ui/Search'
-import CharacterItem from './CharacterItem'
 
 const Home = () => {
     const [items, setItems] = useState([]);
